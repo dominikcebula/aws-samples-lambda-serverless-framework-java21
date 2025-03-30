@@ -1,0 +1,17 @@
+service: aws-samples-lambda-serverless-framework-java21
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: java21
+
+package:
+  artifact: target/aws-samples-lambda-serverless-framework-java21.jar
+
+functions:
+  listProducts:
+    handler: com.dominikcebula.samples.aws.lambda.product.catalog.list.ListProductsRequestHandler
+    events:
+      - httpApi:
+          path: /api/v1/products
+          method: get
