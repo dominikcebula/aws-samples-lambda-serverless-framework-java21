@@ -5,7 +5,10 @@ provider:
   name: aws
   runtime: java21
   stage: dev
-  region: us-east-1
+  region: eu-central-1
+  iam:
+    role:
+      name: serverless-app-role
 
 package:
   artifact: target/aws-samples-lambda-serverless-framework-java21.jar
