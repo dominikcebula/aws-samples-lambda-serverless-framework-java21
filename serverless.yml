@@ -1,11 +1,10 @@
 service: aws-samples-lambda-serverless-framework-java21
-frameworkVersion: '4'
 
 provider:
   name: aws
   runtime: java21
   stage: dev
-  region: eu-central-1
+  region: us-east-1
 
 package:
   artifact: target/aws-samples-lambda-serverless-framework-java21.jar
