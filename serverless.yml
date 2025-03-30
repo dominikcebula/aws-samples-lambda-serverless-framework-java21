@@ -1,3 +1,4 @@
+org: dominikcebula
 service: aws-samples-lambda-serverless-framework-java21
 
 provider:
