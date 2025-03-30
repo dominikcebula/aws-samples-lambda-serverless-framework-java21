@@ -2,7 +2,8 @@
 
 ## Intro
 
-This repository contains sample code for AWS Lambda created using Serverless Framework using Java 21.
+This repository contains sample code for AWS Lambda created
+using [Serverless Framework](https://www.serverless.com/framework/docs) using Java 21.
 
 ## API Endpoints
 
